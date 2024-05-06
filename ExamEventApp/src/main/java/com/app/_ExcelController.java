@@ -12,12 +12,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
-import com.app.service.ExcelService;
+import com.app.service._ExcelService;
 
 @Controller
-public class ExcelController {
+public class _ExcelController {
 	
-	private ExcelService eServ = new ExcelService();
+	private _ExcelService eServ = new _ExcelService();
+	
+	
 	@PostMapping("excel/save")
 	@ResponseBody
 	public String saveExcelFile(@RequestParam("excel") CommonsMultipartFile file, HttpSession s) {
@@ -25,6 +27,7 @@ public class ExcelController {
 		System.out.println("----------------------->"+file.getOriginalFilename());
 		System.out.println("----------------------->"+file.getSize());
 		System.out.println("----------------------->"+file.getContentType());
+		System.out.println("----------------------->"+file.getStorageDescription());
 		
 		byte[] data = file.getBytes();
 		//we have to save this file to server...

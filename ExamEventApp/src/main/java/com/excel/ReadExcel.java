@@ -23,7 +23,7 @@ public class ReadExcel {
 	
 	public String readExcel(String SheetName, int rNum, int cNum) {
 		try {
-			FileInputStream fis = new FileInputStream("C:\\Users\\sainathi\\Downloads\\Excel Files\\Book1.xlsx");
+			FileInputStream fis = new FileInputStream("C:\\Users\\sainathi\\Downloads\\Excel Files\\ExamEvent.xlsx");
 			Workbook wb = WorkbookFactory.create(fis);
 			
 			Sheet s = wb.getSheet(SheetName);

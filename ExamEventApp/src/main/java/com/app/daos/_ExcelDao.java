@@ -8,7 +8,7 @@ import mkcl.os.model.dal.DALException;
 import mkcl.os.model.dal.DALHelper;
 import mkcl.os.model.dal.ISql;
 
-public class ExcelDao {
+public class _ExcelDao {
 	
 	private ISql icrud = DALHelper.getIsql();
 	
