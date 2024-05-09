@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.app.model">
+	<class name="Mark" table="marks">
+		<id name="markId" column="mark_id">
+			<generator class="identity"/>
+		</id>
+		<property name="english" column="english"/>
+		<property name="mathematics" column="mathematics"/>
+		<property name="science" column="science"/>
+		<property name="socialScience" column="social_science"/>
+		<property name="hindi" column="hindi"/>
+		<property name="physicalEducation" column="physical_education"/>
+		<property name="drawing" column="drawing"/>
+		<property name="sanskrit" column="sanskrit"/>
+		<property name="moralScience" column="moral_science"/>
+	</class>
+</hibernate-mapping>

@@ -29,7 +29,7 @@
 						<b>Upload a excel file</b>
 					</div>
 					<div class="col-md-8">
-						<input type="file" name="excel" />
+						<input type="file" name="excel" class="form-control"/>
 					</div>
 				</div>
 				<div>

@@ -28,7 +28,7 @@
                   <div class="col-md-8">
                   <br>
                   
-                  <textarea name="inputText" rows="5" cols="50"></textarea>
+                  <textarea name="inputText" rows="5" cols="50"  class="form-control"></textarea>
         <br/>
         </div>
         <center>

@@ -35,8 +35,11 @@
 		<property name="c3p0.initialPoolSize">2</property>
 		<property name="c3p0.numHelperThreads">5</property>
 
-		<!--oesserver-SERVER mapping files -->
+		<!--mapping files -->
 		<mapping resource="com/app/hbms/ExamEvent.hbm.xml"/>
+		<mapping resource="com/app/hbms/Student.hbm.xml"/>
+		<mapping resource="com/app/hbms/School.hbm.xml"/>
+		<mapping resource="com/app/hbms/Mark.hbm.xml"/>
 		
 	</session-factory>
 </hibernate-configuration>

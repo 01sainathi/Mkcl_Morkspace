@@ -49,7 +49,7 @@ public class PdfController {
 	public String excelToPdf() {
 		return "ExcelToPdf";
 	}
-	
+
 	@GetMapping("/htmlToPdf")
 	@ResponseBody
 	public ResponseEntity<byte[]> save(@RequestParam long examEventID, 
@@ -118,4 +118,27 @@ public class PdfController {
 		
 	}
 	
+	@GetMapping("/testing")
+	public String test() {
+		
+		//Create empty html document
+		var document = new com.aspose.html.HTMLDocument();
+		
+		//Add heading
+		//create aheading element
+		var h2 = (com.aspose.html.HTMLHeadingElement)document.createElement("h2");
+		
+		//Create a text element
+		var text = document.createTextNode("This is a simple heading!");
+		
+		//add text ele to the heading 
+		h2.appendChild(text);
+		
+		//add heading to the document
+		document.getBody().appendChild(h2);
+		
+		//save the html document to a file
+		document.save("D:/create-html-advanced.html");
+		return "abc";
+	}
 }
