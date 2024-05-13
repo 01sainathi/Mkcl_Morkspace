@@ -57,8 +57,12 @@ public class Student {
 	}
 	@Override
 	public String toString() {
-		return "Student [studentId=" + studentId + ", rollNo=" + rollNo + ", name=" + name + ", std=" + std
-				+ ", fkSchoolId=" + fkSchoolId + ", fkMarkId=" + fkMarkId + "]";
+		return "{\"studentId\":\"" + studentId + "\","
+				+ "\"rollNo\":\"" + rollNo + "\","
+				+ "\"name\":\"" + name + "\","
+				+ "\"std\":\"" + std+ "\","
+				+ "\"fkSchoolId\":\"" + fkSchoolId + "\","
+				+ "\"fkMarkId\":\"" + fkMarkId + "\"}";
 	}
 	
 }

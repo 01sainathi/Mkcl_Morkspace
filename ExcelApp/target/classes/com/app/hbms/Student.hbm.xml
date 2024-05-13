@@ -7,7 +7,7 @@
 		</id>
 		<property name="rollNo" column="roll_no"/>
 		<property name="name" column="name"/>
-		<property name="class" column="std"/>
+		<property name="std" column="class"/>
 		<property name="fkSchoolId" column="fk_school_id"/>
 		<property name="fkMarkId" column="fk_mark_id"/>
 	</class>

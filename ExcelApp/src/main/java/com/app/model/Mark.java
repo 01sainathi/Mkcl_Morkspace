@@ -90,10 +90,16 @@ public class Mark {
 	}
 	@Override
 	public String toString() {
-		return "Mark [markId=" + markId + ", english=" + english + ", mathematics=" + mathematics + ", science="
-				+ science + ", socialScience=" + socialScience + ", hindi=" + hindi + ", physicalEducation="
-				+ physicalEducation + ", drawing=" + drawing + ", sanskrit=" + sanskrit + ", moralScience="
-				+ moralScience + "]";
+		return "{\"markId\":\"" + markId + "\", "
+				+ "\"english\":\"" + english + "\", "
+				+ "\"mathematics\":\"" + mathematics + "\","
+				+ "\"science\":\""+ science + "\", "
+				+ "\"socialScience\":\"" + socialScience + "\","
+				+ "\"hindi\":\"" + hindi + "\","
+				+ "\"physicalEducation\":\""+ physicalEducation + "\", "
+				+ "\"drawing\":\"" + drawing + "\","
+				+ "\"sanskrit\":\"" + sanskrit + "\","
+				+ "\"moralScience\":\""+ moralScience + "\"}";
 	}
 	
 }

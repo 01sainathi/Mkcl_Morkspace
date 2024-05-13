@@ -22,4 +22,15 @@
 	<!-- Configuring multipart resolver -->
 	
 	<bean name="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+
+	 <!-- Define PropertySourcesPlaceholderConfigurer as a singleton bean with eager loading -->
+    <bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer" 
+          id="propertyConfigurer" lazy-init="false">
+        <property name="locations">
+            <list>
+                <value>classpath:mkclproperties.properties</value>
+            </list>
+        </property>
+        <property name="ignoreUnresolvablePlaceholders" value="true" />
+    </bean>
 </beans>

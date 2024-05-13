@@ -64,13 +64,13 @@
 				<a data-mdb-ripple-init
 					class="btn btn-link btn-floating btn-lg text-body m-1" href="#!"
 					role="button" data-mdb-ripple-color="dark"><i
-					class="fab fa-twitter"></i></a>
+					class="fab fa-twitter text-primary"></i></a>
 
 				<!-- Google -->
 				<a data-mdb-ripple-init
 					class="btn btn-link btn-floating btn-lg text-body m-1" href="#!"
 					role="button" data-mdb-ripple-color="dark"><i
-					class="fab fa-google"></i></a>
+					class="fab fa-google text-danger"></i></a>
 
 				<!-- Instagram -->
 				<a data-mdb-ripple-init
@@ -82,7 +82,7 @@
 				<a data-mdb-ripple-init
 					class="btn btn-link btn-floating btn-lg text-body m-1" href="#!"
 					role="button" data-mdb-ripple-color="dark"><i
-					class="fab fa-linkedin"></i></a>
+					class="fab fa-linkedin text-primary"></i></a>
 				<!-- Github -->
 				<a data-mdb-ripple-init
 					class="btn btn-link btn-floating btn-lg text-body m-1" href="#!"

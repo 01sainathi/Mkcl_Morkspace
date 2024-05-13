@@ -49,7 +49,10 @@ public class School {
 	}
 	@Override
 	public String toString() {
-		return "School [schoolId=" + schoolId + ", name=" + name + ", address=" + address + ", phone=" + phone
-				+ ", email=" + email + "]";
+		return "{\"schoolId\":\"" + schoolId + "\","
+				+ "\"name\":\"" + name + "\","
+				+ "\"address\":\"" + address + "\","
+				+ "\"phone\":\"" + phone+ "\", "
+				+ "\"email\":\"" + email + "\"}";
 	}
 }
